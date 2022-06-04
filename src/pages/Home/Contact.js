@@ -12,17 +12,17 @@ const Contact = () => {
             <input
               type="email"
               placeholder="Email Address"
-              class="input lg:w-full max-w-lg w-3/4  mt-10 mb-5"
+              className="input lg:w-full max-w-lg w-3/4  mt-10 mb-5"
             />
             <input
               type="text"
               placeholder="Subject"
-              class="input lg:w-full max-w-lg w-3/4 mb-5"
+              className="input lg:w-full max-w-lg w-3/4 mb-5"
             />
             <input
               type="text"
               placeholder="Your Message"
-              class="input lg:w-full h-28 max-w-lg w-3/4 mb-5"
+              className="input lg:w-full h-28 max-w-lg w-3/4 mb-5"
             />
             <input
               type="submit"

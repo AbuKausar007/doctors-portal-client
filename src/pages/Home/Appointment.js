@@ -23,7 +23,7 @@ const Appointment = () => {
           minima, ea natus voluptates cumque exercitationem quasi, iure, maxime
           magnam error.
         </p>
-        <button class="btn btn-primary  bg-gradient-to-r from-secondary to-primary text-white font-bold">
+        <button className="btn btn-primary  bg-gradient-to-r from-secondary to-primary text-white font-bold">
           Get Started
         </button>
       </div>
