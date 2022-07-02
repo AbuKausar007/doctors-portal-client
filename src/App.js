@@ -7,6 +7,8 @@ import Login from "./pages/Login/Login";
 import RequireAuth from "./pages/Login/RequireAuth";
 import SignUp from "./pages/Login/SignUp";
 import Navbar from "./pages/Shared/Navbar";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="signup" element={<SignUp></SignUp>}></Route>
         <Route path="login" element={<Login></Login>}></Route>
       </Routes>
+      <ToastContainer theme="colored" />
     </div>
   );
 }
